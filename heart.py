@@ -35,6 +35,7 @@ class HeartMod(loader.Module):
         heart12 = "🤍🤍🤍\n🤍🤍🤍\n🤍🤍🤍"
         heart13 = "🤍🤍\n🤍🤍"
         heart14 = "🤍"
+        heart15 = f"{lov_txt} ❣️"
         
         await utils.answer(message, heart1)
         sleep(0.3)
@@ -63,3 +64,5 @@ class HeartMod(loader.Module):
         await utils.answer(message, heart13)
         sleep(0.3)
         await utils.answer(message, heart14)
+        sleep(0.3)
+        await utils.answer(message, heart15)
